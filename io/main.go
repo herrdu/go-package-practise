@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	err := test.Pipe()
+	err := test.ReadFull()
 	if err != nil {
 		log.Fatalln(err)
 	}
