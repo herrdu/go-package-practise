@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	err := test.ReadFull()
+	err := test.Seek()
 	if err != nil {
 		log.Fatalln(err)
 	}

@@ -1,5 +1,11 @@
 package test
 
-func WriteString() {
+import (
+	"io"
+	"os"
+)
 
+func WriteString() error {
+	io.WriteString(os.Stdout, "Hello World")
+	return nil
 }

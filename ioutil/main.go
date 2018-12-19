@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	test.Write()
+	test.TempFileWithSuffix()
 }
